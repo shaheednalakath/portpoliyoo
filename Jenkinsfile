@@ -32,6 +32,7 @@ pipeline {
                 echo 'Starting deployment...'
                 echo 'Deploying application to target environment'
                 echo 'Deployment completed successfully'
+                echo 'Application deployed successfully'
             }
         }
     }
