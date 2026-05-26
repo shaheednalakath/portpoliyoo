@@ -1,3 +1,5 @@
+
+
 /* Core & Variables */
 :root {
     --bg-color: #0f172a;
@@ -24,8 +26,7 @@ html {
 }
 
 body {
-    background: var(--bg-color);
-    color: var(--text-color);
+    background: red !important;
 }
 
 section {
