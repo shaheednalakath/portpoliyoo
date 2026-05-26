@@ -26,7 +26,8 @@ html {
 }
 
 body {
-    background: red !important;
+    background: var(--bg-color);
+    color: var(--text-color);
 }
 
 section {
