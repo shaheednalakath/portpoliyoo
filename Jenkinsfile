@@ -12,6 +12,10 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application...'
+
+                   sh '''
+                      docker build -t portfoliyoo:latest .
+                      '''
             }
         }
 
